@@ -1,0 +1,32 @@
+/*** ! MY RESETS ! ***/
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+::selection {
+  background: #7f9ec7;
+}
+::-moz-selection {
+  background: #7f9ec7;
+}

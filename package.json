@@ -1,0 +1,16 @@
+{
+  "name": "greasby-opticians",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.0",
+    "@gridsome/vue-remark": "^0.2.1",
+    "gridsome": "^0.7.17",
+    "tailwindcss": "^1.4.6"
+  }
+}
