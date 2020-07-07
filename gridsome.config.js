@@ -19,6 +19,14 @@ module.exports = {
         baseDir: './static/blog',
         pathPrefix: 'blog',
         template: './src/templates/BlogTemplate.vue',
+        remark: {
+          plugins: [
+            [
+              'gridsome-plugin-remark-shiki',
+              { theme: 'nord', skipInline: false },
+            ],
+          ],
+        },
       },
     },
   ],

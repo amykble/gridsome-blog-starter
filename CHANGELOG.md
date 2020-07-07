@@ -8,6 +8,22 @@ All notable changes to this project will be documented in this file.
 - Infinite scroll on the blog page
 - Tags and filters for the blog (search by date etc)
 
+## [0.2.0] | 2020-07-05
+
+#### Added
+
+- Blog page styling
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.1.0] | 2020-07-05
 
 #### Added

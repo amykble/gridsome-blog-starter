@@ -8,9 +8,18 @@
         <hr class="mx-6" />
         <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 py-10">
           <h2 class="font-title font-bold text-xl">Most Recent Post</h2>
-          <h3>Title: {{ edge.node.title }}</h3>
-          <h4>Posted: {{ edge.node.date }}</h4>
-          <p>Snippet: {{ edge.node.description }}</p>
+          <h3>
+            <span class="underline">Title:</span>
+            {{ edge.node.title }}
+          </h3>
+          <h4>
+            <span class="underline">Posted:</span>
+            {{ edge.node.date }}
+          </h4>
+          <p>
+            <span class="underline">Snippet:</span>
+            {{ edge.node.snippet }}
+          </p>
           <div>
             <g-link
               :to="edge.node.path"
@@ -48,7 +57,7 @@ query Posts {
       node {
         title
         date
-        description
+        snippet
 				path 
       }
     }
@@ -67,5 +76,3 @@ export default {
 
 <style>
 </style>
-
-

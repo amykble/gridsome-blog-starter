@@ -7,9 +7,12 @@
         </header>
         <hr class="mx-6" />
         <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 mt-10">
-          <h3 class="font-title font-bold text-xl">Title: {{ edge.node.title }}</h3>
+          <h3 class="font-title font-bold text-xl">
+            <span class="underline">Title:</span>
+            {{ edge.node.title }}
+          </h3>
           <h4>Posted: {{ edge.node.date }}</h4>
-          <p>Snippet: {{ edge.node.description }}</p>
+          <p>Snippet: {{ edge.node.snippet }}</p>
           <div class="mt-4">
             <g-link
               :to="edge.node.path"
@@ -30,7 +33,7 @@ query Posts {
       node {
         title
         date
-        description
+        snippet
         path
       }
     }

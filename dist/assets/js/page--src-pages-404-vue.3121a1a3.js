@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{178:function(t,e,n){"use strict";n.r(e);var a={metaInfo:{title:"404"}},s=n(18),c=Object(s.a)(a,(function(){var t=this.$createElement;return(this._self._c||t)("Layout",{staticClass:"font-body"},[this._v("404 Page")])}),[],!1,null,"0cc627fa",null);e.default=c.exports}}]);

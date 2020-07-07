@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: '/static/blog'
+media_folder: '/static/blog/media'
 public_folder: '/blog'
 
 collections:
@@ -20,5 +20,5 @@ collections:
           timeFormat: false,
           format: 'DD MM YYYY',
         }
-      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Snippet', name: 'snippet', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

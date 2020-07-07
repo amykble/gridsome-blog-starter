@@ -27,6 +27,12 @@ module.exports = {
           '4px 0 6px -1px rgba(0, 0, 0, 0.1), 2px 0 4px -1px rgba(0, 0, 0, 0.06)', // right medium
         'r-lg':
           '10px 0 15px -3px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.05)', // right large
+        'inner-md':
+          'inset 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);', // inner medium
+        'inner-md-dark':
+          'inset 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.2);', // inner medium dark
+        'inner-lg':
+          'inset 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);', // inner large
       },
       borderRadius: {
         xl: '0.75rem',
