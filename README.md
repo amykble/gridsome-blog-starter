@@ -4,10 +4,9 @@
   <img width="500" src="src/assets/images/amykble/gridsome-logo-normal.svg" alt="Project Logo">
 </p>
 
-## Information about The Website
+## Information about The Site
 
-xxx
-See the [changelog](CHANGELOG.md) to see all updates to this project.
+This is a blog starter for gridsome, a vue static site generator that uses plugins to create complex sites with the bennefits of a static website. See the [changelog](CHANGELOG.md) to see all updates to this project.
 
 ## Technologies Used
 
@@ -30,12 +29,9 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
 |- prettier.config.js
 |- tailwind.config.js
 |- CHANGELOG.md
-|- static/
-  |- admin/
-    |- config.yml
-    |- index.html
-  |- announcements/
-    |- xxx.md, etc..
+|- content/
+  |- blog/
+    |- blog.md files
 |- src/
   |- main.js
   |- main.css
@@ -45,6 +41,9 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
   |- layouts/
     |- Default.vue
     |- any other layouts..
+  |- templates/
+    |- Post.vue
+    |- any other templates..
   |- components/
     |- default/
       |- Navigation.vue

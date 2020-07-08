@@ -10,65 +10,25 @@ All notable changes to this project will be documented in this file.
 
 ## [0.2.1] | 2020-07-08
 
-#### Added
-
 - Date formatting
-
-#### Changed
-
-- x
-
-#### Fixed
-
-- x
 
 ---
 
 ## [0.2.0] | 2020-07-08
 
-#### Added
-
 - Code highlighting n the blog section
-
-#### Changed
-
-- x
-
-#### Fixed
-
-- x
 
 ---
 
 ## [0.2.0] | 2020-07-05
 
-#### Added
-
 - Blog page styling
-
-#### Changed
-
-- x
-
-#### Fixed
-
-- x
 
 ---
 
 ## [0.1.0] | 2020-07-05
 
-#### Added
-
 - Initial commit
-
-#### Changed
-
-- x
-
-#### Fixed
-
-- x
 
 ---
 
