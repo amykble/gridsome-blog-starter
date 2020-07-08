@@ -19,50 +19,6 @@ This is a blog starter for gridsome, a vue static site generator that uses plugi
 - **[Vue](https://vuejs.org)**
   is a JavaScript framework that is easy to use and build websites out of components and intergrate functionality into a site with ease.
 
-## File Structure
-
-```
-.
-|- package.json
-|- gridsome.config.js
-|- gridsome.server.js
-|- prettier.config.js
-|- tailwind.config.js
-|- CHANGELOG.md
-|- content/
-  |- blog/
-    |- blog.md files
-|- src/
-  |- main.js
-  |- main.css
-  |- pages/
-    |- Index.vue
-    |- About.vue, etc..
-  |- layouts/
-    |- Default.vue
-    |- any other layouts..
-  |- templates/
-    |- Post.vue
-    |- any other templates..
-  |- components/
-    |- default/
-      |- Navigation.vue
-      |- Footer.vue, etc..
-    |- modules/
-      |- Landing.vue
-      |- Review.vue, etc..
-  |- assets/
-    |- images/
-      |- logos, images, etc..
-    |- styles/
-      |- resets, global styles, etc..
-|- dist/
-  |- index.html
-  |- 404.html
-  |- css/ style pages...
-  The dist folder is built when 'gridsome build' is output to
-```
-
 ## Using Gridsome
 
 ### Install Gridsome CLI tool
