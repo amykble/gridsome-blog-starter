@@ -13,23 +13,29 @@ module.exports = {
   },
   plugins: [
     {
-      use: '@gridsome/vue-remark',
+      use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Posts',
-        baseDir: './static/blog',
-        pathPrefix: 'blog',
-        template: './src/templates/BlogTemplate.vue',
+        typeName: 'Post',
+        path: './content/blog/*.md',
         remark: {
           plugins: [
             [
               'gridsome-plugin-remark-shiki',
-              { theme: 'nord', skipInline: false },
+              { theme: 'Material-Theme-Palenight', skipInline: false },
             ],
           ],
         },
       },
     },
   ],
+  templates: {
+    Post: [
+      {
+        path: '/blog/:title',
+        component: './src/templates/Post.vue',
+      },
+    ],
+  },
   css: {
     loaderOptions: {
       postcss: {

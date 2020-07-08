@@ -1,6 +1,6 @@
 ---
 title: Blog Post 1
-date: 12 06 2020
+date: 2020-06-12
 snippet: I'm baby selfies try-hard cray, poutine cliche butcher skateboard ramps DIY vape flannel air plant williamsburg vegan fanny pack. Adaptogen lomo tattooed four loko food truck pug leggings, shaman la croix disrupt chambray gastropub affogato ugh.
 ---
 

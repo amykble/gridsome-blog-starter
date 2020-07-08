@@ -7,5 +7,5 @@ node_modules
 .env.*
 textdump.md
 package-lock.json
-notes.md
+notes.txt
 
