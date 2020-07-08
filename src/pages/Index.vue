@@ -6,7 +6,7 @@
           <h1 class="font-title font-bold text-4xl">Home Page</h1>
         </header>
         <hr class="mx-6" />
-        <!-- <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 py-10">
+        <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 py-10">
           <h2 class="font-title font-bold text-xl">Most Recent Post</h2>
           <h3>
             <span class="underline">Title:</span>
@@ -26,12 +26,12 @@
               class="text-green-400 hover:text-pink-400 focus:text-pink-400"
             >Read more</g-link>
           </div>
-        </article>-->
+        </article>
       </div>
     </section>
     <section class="bg-gray-200">
       <main class="max-w-screen-lg pb-3 mx-auto">
-        <div class="mx-3 bg-gray-100 rounded">
+        <div class="mx-3 bg-gray-100 rounded-md shadow-lg">
           <header class="mx-3 py-10">
             <h2 class="font-title font-bold text-3xl">Main Content</h2>
           </header>
@@ -49,6 +49,21 @@
     </section>
   </Layout>
 </template>
+
+<page-query>
+query Post {
+  blog: allPost(sortBy: "date", limit: 1) {
+    edges {
+      node {
+        title
+        date (format: "DD MMMM, YYYY")
+        snippet
+				path 
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 export default {

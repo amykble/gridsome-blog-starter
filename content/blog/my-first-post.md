@@ -1,10 +1,10 @@
 ---
-title: Blog Post 1
+title: My first post!
 date: 2020-06-12
 snippet: I'm baby selfies try-hard cray, poutine cliche butcher skateboard ramps DIY vape flannel air plant williamsburg vegan fanny pack. Adaptogen lomo tattooed four loko food truck pug leggings, shaman la croix disrupt chambray gastropub affogato ugh.
 ---
 
-# This is a header for blog post 1
+# This is a header formy first post
 
 I'm baby selfies try-hard cray, poutine cliche butcher skateboard ramps DIY vape flannel air plant williamsburg vegan fanny pack. Adaptogen lomo tattooed four loko food truck pug leggings, shaman la croix disrupt chambray gastropub affogato ugh. Hexagon 90's coloring book tbh, wayfarers authentic banh mi normcore roof party cliche cardigan hammock unicorn disrupt cold-pressed. Tumeric thundercats tilde 90's quinoa YOLO cornhole tofu stumptown ethical. Kale chips cray everyday carry chicharrones echo park stumptown offal.
 

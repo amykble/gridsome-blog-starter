@@ -6,7 +6,7 @@
           <h1 class="font-title font-bold text-4xl">Blog Posts</h1>
         </header>
         <hr class="mx-6" />
-        <!-- <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 mt-10">
+        <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 mt-10">
           <h3 class="font-title font-bold text-xl">
             <span class="underline">Title:</span>
             {{ edge.node.title }}
@@ -20,11 +20,26 @@
             >Read more</g-link>
           </div>
           <hr class="mt-10" />
-        </article>-->
+        </article>
       </div>
     </section>
   </Layout>
 </template>
+
+<page-query>
+query Post {
+  blog: allPost(sortBy: "date") {
+    edges {
+      node {
+        title
+        date (format: "DD MM YYYY")
+        snippet
+        path
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 export default {

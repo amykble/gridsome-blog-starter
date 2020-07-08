@@ -9,6 +9,12 @@
           <h3
             class="mt-2 text-gray-600 text-lg"
           >Time to Read: {{ $page.post.timeToRead }} {{ minSuffix }}</h3>
+          <div class="mt-4">
+            <g-link
+              to="/blog"
+              class="text-lg p-1 border border-solid border-pink-400 text-pink-400 hover:text-green-400 focus:text-green-400"
+            >Go Back</g-link>
+          </div>
         </header>
         <div class="remark mx-3 bg-gray-100 rounded-md shadow-lg">
           <div v-html="$page.post.content" class="mx-3 pb-3"></div>
@@ -45,7 +51,7 @@ export default {
 			if (this.$page.post.timeToRead >= 2) {
 				return (this.minSuffix = 'mins ☕')
 			}
-			if (this.$page.post.timeToRead == 1) {
+			if (this.$page.post.timeToRead <= 1) {
 				return (this.minSuffix = 'min 👀')
 			}
 		},
