@@ -1,6 +1,3 @@
-const tailwind = require('tailwindcss')
-const postcssPlugins = [tailwind()]
-
 module.exports = {
   siteName: 'Gridsome Blog Template',
   titleTemplate: '%s | Gridsome Blog Template',
@@ -12,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    { use: 'gridsome-plugin-tailwindcss' },
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -35,12 +33,5 @@ module.exports = {
         component: './src/templates/Post.vue',
       },
     ],
-  },
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPlugins,
-      },
-    },
   },
 }

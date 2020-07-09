@@ -75,4 +75,7 @@ export default {
 </script>
 
 <style>
+@import '../assets/styles/fonts.css';
+@import '../assets/styles/andy-bell-reset.css';
+@import '../assets/styles/my-resets.css';
 </style>

@@ -1,5 +1,3 @@
-/*** ! MY RESETS ! ***/
-
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -25,8 +23,8 @@ a:focus {
 }
 
 ::selection {
-  background: #7f9ec7;
+  background: #68d391;
 }
 ::-moz-selection {
-  background: #7f9ec7;
+  background: #68d391;
 }

@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 - Infinite scroll on the blog page
 - Tags and filters for the blog (search by date etc)
 
+## [0.2.2] | 2020-07-10
+
+- Added tailwind as a gridsome plugin
+
+---
+
 ## [0.2.1] | 2020-07-08
 
 - Date formatting

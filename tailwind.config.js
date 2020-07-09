@@ -18,21 +18,21 @@ module.exports = {
         'half-view': '50vh',
       },
       fontFamily: {
-        body: ['DM Mono', 'monospace'],
+        body: ['Fira Code', 'monospace'],
         title: ['Josefin Sans', 'sans-serif'],
       },
       boxShadow: {
-        r: '1px 0 3px 0 rgba(0, 0, 0, 0.1), 1px 0 2px 0 rgba(0, 0, 0, 0.06)', // right
+        r: '1px 0 3px 0 rgba(0, 0, 0, 0.1), 1px 0 2px 0 rgba(0, 0, 0, 0.06)',
         'r-md':
-          '4px 0 6px -1px rgba(0, 0, 0, 0.1), 2px 0 4px -1px rgba(0, 0, 0, 0.06)', // right medium
+          '4px 0 6px -1px rgba(0, 0, 0, 0.1), 2px 0 4px -1px rgba(0, 0, 0, 0.06)',
         'r-lg':
-          '10px 0 15px -3px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.05)', // right large
+          '10px 0 15px -3px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.05)',
         'inner-md':
-          'inset 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);', // inner medium
+          'inset 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);',
         'inner-md-dark':
-          'inset 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.2);', // inner medium dark
+          'inset 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.2);',
         'inner-lg':
-          'inset 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);', // inner large
+          'inset 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);',
       },
       borderRadius: {
         xl: '0.75rem',
@@ -51,7 +51,7 @@ module.exports = {
         '90': '.9',
       },
     },
+    variants: {},
+    plugins: [],
   },
-  variants: {},
-  plugins: [],
 }
