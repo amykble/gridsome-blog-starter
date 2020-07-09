@@ -22,7 +22,7 @@ All notable changes to this project will be documented in this file.
 
 ## [0.2.0] | 2020-07-08
 
-- Code highlighting n the blog section
+- Code highlighting in the blog section
 
 ---
 
