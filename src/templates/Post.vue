@@ -1,26 +1,28 @@
 <!-- Post template -->
 <template>
-  <Layout class="font-body">
-    <section class="bg-gray-200 pb-3">
-      <div class="max-w-screen-lg mx-auto">
-        <header class="mx-6 py-10">
-          <h1 class="font-title font-bold text-4xl">{{ $page.post.title }}</h1>
-          <h2 class="mt-2 text-green-400 text-lg">{{ $page.post.date }}</h2>
-          <h3
-            class="mt-2 text-gray-600 text-lg"
-          >Time to Read: {{ $page.post.timeToRead }} {{ minSuffix }}</h3>
-          <div class="mt-4">
-            <g-link
-              to="/blog"
-              class="text-lg p-1 border border-solid border-pink-400 text-pink-400 hover:text-green-400 focus:text-green-400"
-            >Go Back</g-link>
+  <Layout class="backdrop bg-gray-200 text-gray-400 pattern-dots-sm font-body">
+    <main class="text-black">
+      <section class="pb-3">
+        <div class="max-w-screen-lg mx-auto">
+          <header class="mx-6 py-10">
+            <h1 class="font-title font-bold text-4xl">{{ $page.post.title }}</h1>
+            <h2 class="mt-2 text-green-400 text-lg">{{ $page.post.date }}</h2>
+            <h3
+              class="mt-2 text-gray-600 text-lg"
+            >Time to Read: {{ $page.post.timeToRead }} {{ minSuffix }}</h3>
+            <div class="mt-4">
+              <g-link
+                to="/blog"
+                class="text-lg p-1 border border-solid border-pink-400 text-pink-400 hover:text-green-400 focus:text-green-400"
+              >Go Back</g-link>
+            </div>
+          </header>
+          <div class="remark mx-3 bg-gray-100 rounded-md shadow-lg">
+            <div v-html="$page.post.content" class="mx-3 pb-3"></div>
           </div>
-        </header>
-        <div class="remark mx-3 bg-gray-100 rounded-md shadow-lg">
-          <div v-html="$page.post.content" class="mx-3 pb-3"></div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </Layout>
 </template>
 
