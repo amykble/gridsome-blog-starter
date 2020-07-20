@@ -9,7 +9,13 @@ All notable changes to this project will be documented in this file.
 - Tags and filters for the blog
 - Dark & light mode
 
-### [0.2.3] | 2020-07-11
+### [0.3.0] | 2020-07-20
+
+- Configured tailwind typography
+
+---
+
+### [0.2.4] | 2020-07-19
 
 - Removed pattern.css for a different solution, adding tailwind prose support
 

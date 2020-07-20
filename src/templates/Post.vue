@@ -13,12 +13,12 @@
             <div class="mt-4">
               <g-link
                 to="/blog"
-                class="text-lg p-1 border border-solid border-pink-400 text-pink-400 hover:text-green-400 focus:text-green-400"
+                class="text-lg bg-gray-200 hover:bg-gray-300 rounded p-1 border border-solid border-pink-400 text-pink-400 hover:text-green-400 focus:text-green-400"
               >Go Back</g-link>
             </div>
           </header>
-          <div class="mx-3 bg-gray-100 rounded-md shadow-lg">
-            <article v-html="$page.post.content" class="prose mx-3 pb-3"></article>
+          <div class="remark mx-3 bg-gray-100 rounded-md shadow-lg">
+            <article v-html="$page.post.content" class="prose lg:prose-xl mx-auto px-3 py-6"></article>
           </div>
         </div>
       </section>
@@ -66,60 +66,11 @@ export default {
 
 
 <style>
-/* .remark h1,
-.remark h2,
-.remark h3,
-.remark h4 {
-	@apply font-bold mb-5;
-}
-
-.remark h1 {
-	@apply text-3xl pt-5;
-}
-
-.remark h2 {
-	@apply text-2xl;
-}
-
-.remark h3 {
-	@apply text-xl;
-}
-
-.remark h4 {
-	@apply text-lg;
-}
-
-.remark p,
-.remark ul,
-.remark ol {
-	@apply text-lg mb-5;
-}
-
-.remark a {
-	@apply text-pink-400 underline;
-}
-
-.remark a:hover {
-	@apply text-green-400;
-}
-
-.remark ul li {
-	@apply list-disc ml-5;
-}
-
-.remark ol li {
-	@apply list-decimal ml-8;
+.remark p code {
+	@apply px-1 rounded;
 }
 
 .remark img {
-	@apply w-3/4 max-w-lg mx-auto rounded-md;
+	@apply rounded-md;
 }
-
-.remark pre {
-	@apply mb-5 p-3 overflow-auto rounded-md;
-}
-
-.remark p code {
-	@apply bg-gray-800 text-gray-100 px-1 rounded;
-} */
 </style>
