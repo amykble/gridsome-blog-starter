@@ -51,7 +51,7 @@ module.exports = {
         '90': '.9',
       },
     },
-    variants: {},
-    plugins: [require('@tailwindcss/typography')],
   },
+  variants: {},
+  plugins: [require('@tailwindcss/typography')],
 }
