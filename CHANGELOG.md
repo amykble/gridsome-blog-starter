@@ -4,9 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## Upcoming commits 🚀
 
-- Adding a search bar
+- Adding a search bar (search by word etc)
 - Infinite scroll on the blog page
-- Tags and filters for the blog (search by date etc)
+- Tags and filters for the blog
+- Dark & light mode
+
+### [0.2.3] | 2020-07-11
+
+- Removed pattern.css for a different solution, adding tailwind prose support
+
+---
 
 ### [0.2.3] | 2020-07-11
 

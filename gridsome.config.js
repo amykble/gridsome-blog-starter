@@ -9,7 +9,12 @@ module.exports = {
     },
   },
   plugins: [
-    { use: 'gridsome-plugin-tailwindcss' },
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+        tailwindConfig: './tailwind.config.js',
+      },
+    },
     {
       use: '@gridsome/source-filesystem',
       options: {

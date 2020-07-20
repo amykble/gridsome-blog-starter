@@ -9,7 +9,7 @@
           <li class="mr-6">
             <g-link class="hover:text-green-400 focus:text-green-400" to="/about">About</g-link>
           </li>
-          <li class="mr-6 p-1 border border-solid border-green-400 rounded-md">
+          <li class="mr-6 p-1 border border-solid border-green-400 rounded">
             <g-link class="hover:text-green-400 focus:text-green-400" to="/blog">Blog</g-link>
           </li>
           <li class="mr-6">

@@ -1,6 +1,6 @@
 <template>
-  <Layout class="bg-gray-200 text-gray-400 pattern-dots-sm font-body">
-    <main class="text-black">
+  <Layout class="bg-topo bg-gray-200 font-body">
+    <main>
       <section>
         <div class="max-w-screen-lg h-screen mx-auto">
           <header class="mx-6 py-10">

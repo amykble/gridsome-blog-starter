@@ -1,7 +1,7 @@
 <!-- Post template -->
 <template>
-  <Layout class="backdrop bg-gray-200 text-gray-400 pattern-dots-sm font-body">
-    <main class="text-black">
+  <Layout class="bg-topo bg-gray-200 font-body">
+    <main>
       <section class="pb-3">
         <div class="max-w-screen-lg mx-auto">
           <header class="mx-6 py-10">
@@ -17,8 +17,8 @@
               >Go Back</g-link>
             </div>
           </header>
-          <div class="remark mx-3 bg-gray-100 rounded-md shadow-lg">
-            <div v-html="$page.post.content" class="mx-3 pb-3"></div>
+          <div class="mx-3 bg-gray-100 rounded-md shadow-lg">
+            <article v-html="$page.post.content" class="prose mx-3 pb-3"></article>
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ export default {
 
 
 <style>
-.remark h1,
+/* .remark h1,
 .remark h2,
 .remark h3,
 .remark h4 {
@@ -121,5 +121,5 @@ export default {
 
 .remark p code {
 	@apply bg-gray-800 text-gray-100 px-1 rounded;
-}
+} */
 </style>
