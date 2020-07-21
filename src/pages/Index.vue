@@ -1,5 +1,5 @@
 <template>
-  <Layout class="bg-topo bg-gray-200 font-body">
+  <Layout class="bg-gray-200 dark:bg-gray-800 font-body">
     <main>
       <section>
         <div class="max-w-screen-lg mx-auto">

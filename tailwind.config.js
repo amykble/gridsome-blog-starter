@@ -2,6 +2,7 @@ module.exports = {
   purge: ['./src/**/*.html', './src/**/*.vue', './src/**/*.jsx'],
   theme: {
     extend: {
+      dark: { raw: '(prefers-color-scheme: dark)' },
       spacing: {
         '05': '0.125rem',
         '14': '3.5rem',
