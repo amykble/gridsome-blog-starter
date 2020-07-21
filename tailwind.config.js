@@ -18,8 +18,9 @@ module.exports = {
         'half-view': '50vh',
       },
       fontFamily: {
-        body: ['Fira Code', 'monospace'],
+        body: ['Inter', 'sans-serif'],
         title: ['Josefin Sans', 'sans-serif'],
+        mono: ['Fira Code', 'monospace'],
       },
       boxShadow: {
         r: '1px 0 3px 0 rgba(0, 0, 0, 0.1), 1px 0 2px 0 rgba(0, 0, 0, 0.06)',
