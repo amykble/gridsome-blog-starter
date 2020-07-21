@@ -5,6 +5,9 @@
         <div class="max-w-screen-lg mx-auto">
           <header class="mx-6 py-10">
             <h1 class="font-title font-bold text-4xl">Blog Posts</h1>
+            <h2
+              class="font-bold text-xl text-gray-700"
+            >The conent on this page is pulled in from the markdown files in the content folder with graphql. Those markdown files can be generated with a headless CMS.</h2>
           </header>
           <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 mt-10">
             <h3 class="font-title font-bold text-xl">
