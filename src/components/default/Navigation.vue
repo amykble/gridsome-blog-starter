@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <section class="fixed w-full text-pink-500 bg-gray-200 shadow-md">
+    <section class="fixed z-10 w-full text-pink-500 bg-gray-200 shadow-md">
       <div class="max-w-screen-lg my-2 mx-auto">
         <ul class="flex items-center justify-end">
           <li class="mr-6">

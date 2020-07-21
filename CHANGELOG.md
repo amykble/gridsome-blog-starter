@@ -9,6 +9,12 @@ All notable changes to this project will be documented in this file.
 - Tags and filters for the blog
 - Dark & light mode
 
+### [0.3.1] | 2020-07-21
+
+- Fixed Nav and prose list z-index issue
+
+---
+
 ### [0.3.0] | 2020-07-20
 
 - Configured tailwind typography
