@@ -33,3 +33,5 @@ There are lots of ways you can edit images using highly supported css properties
 Of course you can use a lot of the positioning properties on images, such as `margin`. You can use borders aswell to make images pop! This can also be achieved by using drop shadows.
 
 ![A random image of code from unsplash](https://source.unsplash.com/800x800?code 'A random image of a code from unsplash')
+
+Images help make your website look more attractive, get on it!
