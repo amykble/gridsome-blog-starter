@@ -1,45 +1,49 @@
 <template>
-  <Layout class="bg-gray-200 dark:bg-gray-800 font-body">
+  <Layout class="bg-gray-200 dark:bg-gray-900 font-body dark:text-white">
     <main>
       <section>
         <div class="max-w-screen-lg mx-auto">
           <header class="mx-6 py-10">
             <h1 class="font-title font-bold text-4xl">Home Page</h1>
             <h2
-              class="font-bold text-xl text-gray-700"
+              class="font-bold text-xl text-gray-700 dark:text-gray-300"
             >This is a Gridsome blog starter using tailwind w/ their new typography plugin, source-filesystem, transformer-remark and remark-shiki</h2>
             <div class="pt-2">
-              <p class="inline-block font-bold text-gray-500">Links:</p>
-              <a
-                href="https://twitter.com/amykble_dev"
-                rel="noopener"
-                target="_blank"
-                class="ml-6 inline-block text-green-400 hover:text-pink-400 focus:text-pink-400 font-bold"
-              >My Twitter</a>
-              <a
-                href="https://github.com/amykble/gridsome-blog-starter"
-                rel="noopener"
-                target="_blank"
-                class="ml-6 inline-block text-green-400 hover:text-pink-400 focus:text-pink-400 font-bold"
-              >Github Repo</a>
-              <a
-                href="https://gridsome.org"
-                rel="noopener"
-                target="_blank"
-                class="ml-6 inline-block text-green-400 hover:text-pink-400 focus:text-pink-400 font-bold"
-              >Gridsome</a>
-              <a
-                href="https://tailwindcss.com"
-                rel="noopener"
-                target="_blank"
-                class="ml-6 inline-block text-green-400 hover:text-pink-400 focus:text-pink-400 font-bold"
-              >Tailwind</a>
-              <a
-                href="https://github.com/tailwindcss/typography"
-                rel="noopener"
-                target="_blank"
-                class="ml-6 inline-block text-green-400 hover:text-pink-400 focus:text-pink-400 font-bold"
-              >Tailwind Typography</a>
+              <div>
+                <p class="inline-block font-bold text-gray-500">Links:</p>
+                <a
+                  href="https://twitter.com/amykble_dev"
+                  rel="noopener"
+                  target="_blank"
+                  class="inline-block ml-4 text-green-400 hover:text-pink-500 focus:text-pink-500 font-bold"
+                >My Twitter</a>
+                <a
+                  href="https://github.com/amykble/gridsome-blog-starter"
+                  rel="noopener"
+                  target="_blank"
+                  class="inline-block ml-4 text-green-400 hover:text-pink-500 focus:text-pink-500 font-bold"
+                >Github Repo</a>
+              </div>
+              <div>
+                <a
+                  href="https://gridsome.org"
+                  rel="noopener"
+                  target="_blank"
+                  class="inline-block text-green-400 hover:text-pink-500 focus:text-pink-500 font-bold"
+                >Gridsome</a>
+                <a
+                  href="https://tailwindcss.com"
+                  rel="noopener"
+                  target="_blank"
+                  class="inline-block ml-4 text-green-400 hover:text-pink-500 focus:text-pink-500 font-bold"
+                >Tailwind</a>
+                <a
+                  href="https://github.com/tailwindcss/typography"
+                  rel="noopener"
+                  target="_blank"
+                  class="block sm:inline-block sm:ml-4 text-green-400 hover:text-pink-500 focus:text-pink-500 font-bold"
+                >Tailwind Typography</a>
+              </div>
             </div>
           </header>
           <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 py-10">
@@ -67,7 +71,7 @@
       </section>
       <section>
         <article class="max-w-screen-lg pb-3 mx-auto">
-          <div class="mx-3 bg-gray-100 rounded-md shadow-lg">
+          <div class="mx-3 bg-gray-100 dark:bg-gray-800 rounded-md shadow-lg">
             <header class="mx-3 py-10">
               <h2 class="font-title font-bold text-3xl">Main Content</h2>
             </header>

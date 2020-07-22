@@ -1,12 +1,12 @@
 <template>
-  <Layout class="bg-topo bg-gray-200 font-body">
+  <Layout class="bg-gray-200 dark:bg-gray-900 font-body dark:text-white">
     <main>
       <section>
         <div class="max-w-screen-lg mx-auto">
           <header class="mx-6 py-10">
             <h1 class="font-title font-bold text-4xl">Blog Posts</h1>
             <h2
-              class="font-bold text-xl text-gray-700"
+              class="font-bold text-xl text-gray-700 dark:text-gray-300"
             >The conent on this page is pulled in from the markdown files in the content folder with graphql. Those markdown files can be generated with a headless CMS.</h2>
           </header>
           <article v-for="edge in $page.blog.edges" :key="edge.node.id" class="mx-6 mt-10">
@@ -19,7 +19,7 @@
             <div class="mt-4 mb-10">
               <g-link
                 :to="edge.node.path"
-                class="text-lg p-1 bg-gray-200 hover:bg-gray-300 border border-solid border-green-400 rounded text-green-400 hover:text-pink-400 focus:text-pink-400"
+                class="text-lg p-1 bg-gray-200 dark:bg-gray-800 border border-solid border-green-400 rounded text-green-400 hover:text-pink-400 focus:text-pink-400"
               >Read more</g-link>
             </div>
           </article>
