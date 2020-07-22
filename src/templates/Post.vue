@@ -17,7 +17,7 @@
               >Go Back</g-link>
             </div>
           </header>
-          <div class="remark mx-3 bg-gray-100 dark:bg-gray-800 rounded-md shadow-lg">
+          <div class="remark mx-3 bg-gray-100 dark:bg-gray-850 rounded-md shadow-lg">
             <article
               v-html="$page.post.content"
               class="dark:text-gray-100 prose lg:prose-xl mx-auto px-3 py-6"
@@ -75,5 +75,11 @@ export default {
 
 .remark img {
 	@apply rounded-md;
+}
+
+@media (prefers-color-scheme: dark) {
+	.remark pre {
+		@apply bg-gray-950;
+	}
 }
 </style>

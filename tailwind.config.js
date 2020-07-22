@@ -5,6 +5,7 @@ module.exports = {
       screens: {
         dark: { raw: '(prefers-color-scheme: dark)' },
       },
+      colors: { 'gray-850': '#242C3A', 'gray-950': '#0D1016' },
       spacing: {
         '05': '0.125rem',
         '14': '3.5rem',
