@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'Gridsome Blog Template',
-  titleTemplate: '%s | Gridsome Blog Template',
+  titleTemplate: '%s ~ Gridsome Blog Template',
   siteDescription: 'Gridsome Blog Template Description',
   icon: {
     favicon: {

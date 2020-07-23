@@ -1,5 +1,5 @@
 <template>
-  <Layout class="bg-gray-200 dark:bg-gray-900 font-body dark:text-white">
+  <Layout class="bg-gray-200 font-body">
     <main>
       <section>
         <div class="max-w-screen-lg mx-auto">
@@ -68,7 +68,7 @@
       </section>
       <section>
         <article class="max-w-screen-lg pb-3 mx-auto">
-          <div class="mx-3 bg-gray-100 dark:bg-gray-850 rounded-md shadow-lg">
+          <div class="mx-3 bg-gray-100 rounded-md shadow-lg">
             <header class="mx-3 py-10">
               <h2 class="font-title font-bold text-3xl">Main Content</h2>
             </header>

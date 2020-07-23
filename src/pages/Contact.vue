@@ -1,5 +1,5 @@
 <template>
-  <Layout class="bg-gray-200 dark:bg-gray-900 font-body dark:text-white">
+  <Layout class="bg-gray-200 font-body">
     <main>
       <section>
         <div class="max-w-screen-lg h-screen mx-auto">

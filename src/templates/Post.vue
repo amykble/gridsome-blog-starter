@@ -1,6 +1,6 @@
 <!-- Post template -->
 <template>
-  <Layout class="bg-gray-200 dark:bg-gray-900 font-body dark:text-white">
+  <Layout class="bg-gray-200 font-body">
     <main>
       <section class="pb-3">
         <div class="max-w-screen-lg mx-auto">
@@ -17,11 +17,8 @@
               >Go Back</g-link>
             </div>
           </header>
-          <div class="remark mx-3 bg-gray-100 dark:bg-gray-850 rounded-md shadow-lg">
-            <article
-              v-html="$page.post.content"
-              class="dark:text-gray-100 prose lg:prose-xl mx-auto px-3 py-6"
-            ></article>
+          <div class="remark mx-3 bg-gray-100 rounded-md shadow-lg">
+            <article v-html="$page.post.content" class="prose lg:prose-xl mx-auto px-3 py-6"></article>
           </div>
         </div>
       </section>
@@ -75,11 +72,5 @@ export default {
 
 .remark img {
 	@apply rounded-md;
-}
-
-@media (prefers-color-scheme: dark) {
-	.remark pre {
-		@apply bg-gray-950;
-	}
 }
 </style>
